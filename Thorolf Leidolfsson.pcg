@@ -1,0 +1,225 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Pathfinder RPG for Players
+VERSION:6.07.08
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
+PURCHASEPOINTS:N
+CHARACTERTYPE:NPC
+PREVIEWSHEET:statblock5.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Thorolf Leidolfsson
+TABNAME:
+PLAYERNAME:Justin
+HEIGHT:71
+WEIGHT:270
+AGE:28
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:Green
+HAIRCOLOR:Red
+HAIRSTYLE:Messy
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:C&colon;\Users\Justin\Downloads\PZO6811-OstogToken.jpg
+PORTRAITTHUMBNAILRECT:131,50,177,177
+
+# Character Attributes
+STAT:STR|SCORE:21
+STAT:DEX|SCORE:15
+STAT:CON|SCORE:19
+STAT:INT|SCORE:8
+STAT:WIS|SCORE:14
+STAT:CHA|SCORE:14
+ALIGN:NG
+RACE:Human
+
+# Character Class(es)
+CLASS:Barbarian|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=2|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=4|HITPOINTS:11|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=5|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:14000
+EXPERIENCETABLE:Fast
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ All]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Barbarian|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Blacksmithing)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Barbarian|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:11|
+SKILL:Diplomacy|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:16|
+SKILL:Disguise|OUTPUTORDER:18|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:19|
+SKILL:Escape Artist|OUTPUTORDER:20|
+SKILL:Fly|OUTPUTORDER:21|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:22|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:25|
+SKILL:Heal|OUTPUTORDER:26|
+SKILL:Intimidate|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:30|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:31|
+SKILL:Perception|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Barbarian|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:34|
+SKILL:Profession (Untrained)|OUTPUTORDER:35|
+SKILL:Ride|OUTPUTORDER:36|
+SKILL:Samurai Mount|OUTPUTORDER:37|
+SKILL:Sense Motive|OUTPUTORDER:38|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:39|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:40|
+SKILL:Stealth|OUTPUTORDER:43|
+SKILL:Survival|OUTPUTORDER:44|
+SKILL:Swim|OUTPUTORDER:45|
+SKILL:Untrained Charisma|OUTPUTORDER:46|
+SKILL:Untrained Dexterity|OUTPUTORDER:47|
+SKILL:Untrained Intelligence|OUTPUTORDER:48|
+SKILL:Untrained Strength|OUTPUTORDER:49|
+SKILL:Untrained Wisdom|OUTPUTORDER:50|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:17|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:23|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:32|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:41|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:42|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:51|
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Diehard|TYPE:General.DestinedBloodline.UndeadBloodline.BorealBloodline.DruidShamanBear.ImperiousBloodline.DestinedBloodragerBloodline.UndeadBloodragerBloodline|DESC:You are especially hard to kill. Not only do your wounds automatically stabilize when grievously injured, but you can remain conscious and continue to act even at death's door.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Endurance|TYPE:General.DestinedBloodline.UndeadBloodline.BorealBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear.ImperiousBloodline.AccursedBloodline.DestinedBloodragerBloodline.UndeadBloodragerBloodline|DESC:Harsh conditions or long exertions do not easily tire you.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:Combat.ShadowBloodline.ArcaneBloodragerBloodline|DESC:You can draw weapons faster than most.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Elemental Blood (Lesser)|APPLIEDTO:Cold|TYPE:RagePower.SpecialQuality.Supernatural.BloodRageLesser|DESC:Choose an energy type&colon; acid, cold, fire, or electricity. While raging, as a swift action up to three times a day, the barbarian can imbue her melee attacks with elemental energy, dealing an additional 1d6 points of damage of the chosen energy type for 1 round.
+ABILITY:Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Intimidating Glare|TYPE:BarbarianClassFeatures.ClassFeatures.RagePower.SpecialAttack.Extraordinary|DESC:You can make an Intimidate check against one adjacent foe as a move action. If you successfully demoralize your opponent, the foe is shaken for 1d4 rounds + 1 round for every 5 points by which your check exceeds the DC.
+USERPOOL:Rage Power|POOLPOINTS:0.0
+ABILITY:Raging Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Standard Rage|TYPE:RageSelection
+USERPOOL:Raging Selection|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blowgun]
+WEAPONPROF:[WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
+WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)]
+WEAPONPROF:[WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)]
+WEAPONPROF:[WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar]
+WEAPONPROF:[WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock]
+WEAPONPROF:[WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe]
+WEAPONPROF:[WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)]
+WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane]
+WEAPONPROF:[WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
+WEAPONPROF:[WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:6819.00
+EQUIPNAME:Alchemist's Fire (Flask)|OUTPUTORDER:0|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Antitoxin (Vial)|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gnarlfang (of Hrolf Harfargr)|OUTPUTORDER:1|COST:8350.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Greatsword|DATA:NAME=Gnarlfang (of Hrolf Harfargr)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon.Special Ability ~ Keen ~ Weapon$SPROP=(Greatsword +1 (Keen))]
+EQUIPNAME:Grappling Hook|OUTPUTORDER:0|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Holy Water (Flask)|OUTPUTORDER:0|COST:25|WT:1.0|QUANTITY:5.0|NOTE:
+EQUIPNAME:Outfit (Artisan's)|OUTPUTORDER:3|COST:0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Artisan's)|DATA:NAME=Outfit (Artisan's)$KEY=Outfit (Artisan_s)$COSTMOD=-1]
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Ring of Protection +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shortbow|OUTPUTORDER:5|COST:30.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow|DATA:EQMOD=Material ~ Wood]
+EQUIPNAME:Signet Ring|OUTPUTORDER:4|COST:5|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.01|VALUE:Outfit (Artisan's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.02|VALUE:Gnarlfang (of Hrolf Harfargr)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.03|VALUE:Shortbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.04|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.05|VALUE:Signet Ring|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Standard Rage|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;AC&pipe;RAGEACPENALTY|TBBONUS:SAVE&pipe;WILL&pipe;RAGESAVEBONUS|TBBONUS:STAT&pipe;CON&pipe;RAGECONBONUS|TBBONUS:STAT&pipe;STR&pipe;RAGESTRBONUS|TBBONUS:VAR&pipe;CMD&pipe;RAGEACPENALTY|TBBONUS:VAR&pipe;RAGING&pipe;1
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:Rage - 18 Rounds
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:1:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:DEITY
+
