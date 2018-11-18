@@ -3,10 +3,10 @@ PCGVERSION:2.0
 # System Information
 CAMPAIGN:Pathfinder RPG for Players
 VERSION:6.07.08
-ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
+ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:NPC
-PREVIEWSHEET:statblock5.htm
+PREVIEWSHEET:Standard.htm.ftl
 POOLPOINTS:0
 POOLPOINTSAVAIL:-1
 GAMEMODE:Pathfinder_RPG
@@ -60,15 +60,17 @@ ALIGN:NG
 RACE:Human
 
 # Character Class(es)
-CLASS:Barbarian|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Barbarian|LEVEL:7|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=2|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=4|HITPOINTS:11|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Barbarian=5|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=6|HITPOINTS:11|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=7|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:14000
+EXPERIENCE:28600
 EXPERIENCETABLE:Fast
 
 # Character Templates
@@ -80,7 +82,7 @@ TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ All]
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Barbarian|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Barbarian|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
 SKILL:Bluff|OUTPUTORDER:4|
@@ -88,8 +90,8 @@ SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
-SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:Y]
-SKILL:Craft (Blacksmithing)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Barbarian|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Barbarian|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Blacksmithing)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Barbarian|RANKS:7.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:11|
 SKILL:Diplomacy|OUTPUTORDER:12|
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:13|
@@ -118,7 +120,7 @@ SKILL:Sense Motive|OUTPUTORDER:38|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:39|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:40|
 SKILL:Stealth|OUTPUTORDER:43|
-SKILL:Survival|OUTPUTORDER:44|
+SKILL:Survival|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Swim|OUTPUTORDER:45|
 SKILL:Untrained Charisma|OUTPUTORDER:46|
 SKILL:Untrained Dexterity|OUTPUTORDER:47|
@@ -145,14 +147,16 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Diehard|TYPE:General.DestinedBloodlin
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Endurance|TYPE:General.DestinedBloodline.UndeadBloodline.BorealBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear.ImperiousBloodline.AccursedBloodline.DestinedBloodragerBloodline.UndeadBloodragerBloodline|DESC:Harsh conditions or long exertions do not easily tire you.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:Combat.ShadowBloodline.ArcaneBloodragerBloodline|DESC:You can draw weapons faster than most.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Greatsword|TYPE:Combat.WeaponFocus.DestinedBloodline.OracleWeaponMastery.CelestialBloodragerBloodline.DestinedBloodragerBloodline.ElementalBloodragerBloodline|DESC:You are especially good at using your chosen weapon.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
 ABILITY:Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Elemental Blood (Lesser)|APPLIEDTO:Cold|TYPE:RagePower.SpecialQuality.Supernatural.BloodRageLesser|DESC:Choose an energy type&colon; acid, cold, fire, or electricity. While raging, as a swift action up to three times a day, the barbarian can imbue her melee attacks with elemental energy, dealing an additional 1d6 points of damage of the chosen energy type for 1 round.
+ABILITY:Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Ground Breaker|TYPE:ClassFeatures.BarbarianClassFeatures.RagePower.SpecialAttack.Extraordinary|DESC:Once per rage, the barbarian can attack the floor around her as a standard action. This attack automatically hits and deals damage normally. If the barbarian manages to deal more damage than the floor's hardness, the space she occupies and all of the squares adjacent to her become difficult terrain. Creatures in these squares, except the barbarian, must make a DC 15 Reflex save or be knocked prone.
 ABILITY:Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Intimidating Glare|TYPE:BarbarianClassFeatures.ClassFeatures.RagePower.SpecialAttack.Extraordinary|DESC:You can make an Intimidate check against one adjacent foe as a move action. If you successfully demoralize your opponent, the foe is shaken for 1d4 rounds + 1 round for every 5 points by which your check exceeds the DC.
 USERPOOL:Rage Power|POOLPOINTS:0.0
 ABILITY:Raging Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Standard Rage|TYPE:RageSelection
@@ -173,17 +177,18 @@ WEAPONPROF:[WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:T
 WEAPONPROF:[WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:6819.00
+MONEY:6869.00
 EQUIPNAME:Alchemist's Fire (Flask)|OUTPUTORDER:0|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Antitoxin (Vial)|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Gnarlfang (of Hrolf Harfargr)|OUTPUTORDER:1|COST:8350.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Greatsword|DATA:NAME=Gnarlfang (of Hrolf Harfargr)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon.Special Ability ~ Keen ~ Weapon$SPROP=(Greatsword +1 (Keen))]
 EQUIPNAME:Grappling Hook|OUTPUTORDER:0|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Holy Water (Flask)|OUTPUTORDER:0|COST:25|WT:1.0|QUANTITY:5.0|NOTE:
+EQUIPNAME:Holy Water (Flask)|OUTPUTORDER:0|COST:25|WT:1.0|QUANTITY:3.0|NOTE:
 EQUIPNAME:Outfit (Artisan's)|OUTPUTORDER:3|COST:0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Artisan's)|DATA:NAME=Outfit (Artisan's)$KEY=Outfit (Artisan_s)$COSTMOD=-1]
 EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Ring of Protection +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Shortbow|OUTPUTORDER:5|COST:30.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow|DATA:EQMOD=Material ~ Wood]
+EQUIPNAME:Shortbow|OUTPUTORDER:5|COST:30.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow|DATA:NAME=Shortbow$EQMOD=Material ~ Wood]
 EQUIPNAME:Signet Ring|OUTPUTORDER:4|COST:5|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Tanglefoot Bag|OUTPUTORDER:0|COST:0|WT:4.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Tanglefoot Bag|DATA:NAME=Tanglefoot Bag$COSTMOD=-50]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.01|VALUE:Outfit (Artisan's)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Both Hands|ID:0.1.02|VALUE:Gnarlfang (of Hrolf Harfargr)|QUANTITY:1.0|USETEMPMODS:Y
@@ -193,7 +198,7 @@ EQUIPSET:Equipped|ID:0.1.05|VALUE:Signet Ring|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
-TEMPBONUS:FEAT=Standard Rage|TBTARGET:PC|TBACTIVE:N|TBBONUS:COMBAT&pipe;AC&pipe;RAGEACPENALTY|TBBONUS:SAVE&pipe;WILL&pipe;RAGESAVEBONUS|TBBONUS:STAT&pipe;CON&pipe;RAGECONBONUS|TBBONUS:STAT&pipe;STR&pipe;RAGESTRBONUS|TBBONUS:VAR&pipe;CMD&pipe;RAGEACPENALTY|TBBONUS:VAR&pipe;RAGING&pipe;1
+TEMPBONUS:FEAT=Standard Rage|TBTARGET:PC|TBBONUS:COMBAT&pipe;AC&pipe;RAGEACPENALTY|TBBONUS:SAVE&pipe;WILL&pipe;RAGESAVEBONUS|TBBONUS:STAT&pipe;CON&pipe;RAGECONBONUS|TBBONUS:STAT&pipe;STR&pipe;RAGESTRBONUS|TBBONUS:VAR&pipe;CMD&pipe;RAGEACPENALTY|TBBONUS:VAR&pipe;RAGING&pipe;1
 
 # EquipSet Temp Bonuses
 
